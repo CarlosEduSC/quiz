@@ -1,0 +1,241 @@
+[
+        {
+            "pergunta": "Quantos segundos um jogador tem para repor a bola em jogo após sua equipe conseguir a posse?",
+            "alternativas": { 
+                "A": "8 segundos",
+                "B": "10 segundos",
+                "C": "12 segundos",
+                "D": "24 segundos"
+            },
+            "resposta": "B",
+            "tipo": "tecnica"
+        },
+
+        {
+            "pergunta": "Qual é a distância da linha de lance livre à cesta na NBA?",
+            "alternativas": { 
+                "A": "10 pés (3 metros)",
+                "B": "15 pés (4,5 metros)",
+                "C": "18 pés (5,5 metros)",
+                "D": "20 pés (6 metros)"
+            },
+            "resposta": "B",
+            "tipo": "tecnica"
+        },
+
+        {
+            "pergunta": "Em uma falta técnica, quantos lances livres a equipe adversária tem direito?",
+            "alternativas": { 
+                "A": "1 lance livre",
+                "B": "2 lances livres",
+                "C": "3 lances livres",
+                "D": "Nenhum lance livre"
+            },
+            "resposta": "A",
+            "tipo": "tecnica"
+        },
+
+        {
+            "pergunta": "Qual é o limite de segundos para a equipe atacante realizar um arremesso a partir do momento em que cruza a linha de meio-campo?",
+            "alternativas": { 
+                "A": "8 segundos",
+                "B": "10 segundos",
+                "C": "12 segundos",
+                "D": "24 segundos"
+            },
+            "resposta": "D",
+            "tipo": "tecnica"
+        },
+
+        {
+            "pergunta": "Qual é o limite de faltas pessoais que um jogador pode cometer antes de ser excluído do jogo?",
+            "alternativas": { 
+                "A": "5 faltas",
+                "B": "6 faltas",
+                "C": "7 faltas",
+                "D": "8 faltas"
+            },
+            "resposta": "A",
+            "tipo": "tecnica"
+        },
+
+        {
+            "pergunta": "Qual é o formato do tempo regulamentar de um jogo da NBA, dividido em quartos?",
+            "alternativas": { 
+                "A": "10 minutos por quarto",
+                "B": "12 minutos por quarto",
+                "C": "15 minutos por quarto",
+                "D": "20 minutos por quarto"
+            },
+            "resposta": "B",
+            "tipo": "tecnica"
+        },
+
+        {
+            "pergunta": "Em uma violação de 'três segundos na área restritiva', quem recebe a posse da bola?",
+            "alternativas": { 
+                "A": "A equipe adversária",
+                "B": "O jogador que estava com a bola",
+                "C": "Ninguém, é apenas uma paralisação do jogo",
+                "D": "O árbitro"
+            },
+            "resposta": "A",
+            "tipo": "tecnica"
+        },
+
+        {
+            "pergunta": "Qual é a distância mínima que um defensor deve manter do jogador com a bola durante uma cobrança de falta?",
+            "alternativas": { 
+                "A": "1 pé (0,3 metros)",
+                "B": "3 pés (0,9 metros)",
+                "C": "5 pés (1,5 metros)",
+                "D": "7 pés (2,1 metros)"
+            },
+            "resposta": "B",
+            "tipo": "tecnica"
+        },
+
+        {
+            "pergunta": "Em uma bola presa, como é determinada a posse da bola entre as equipes?",
+            "alternativas": { 
+                "A": "Por um arremesso de três pontos",
+                "B": "Por um salto entre dois jogadores escolhidos pelos capitães das equipes",
+                "C": "Pelo jogador que tocar por último na bola antes da paralisação",
+                "D": "Pela equipe que estava na posse antes da bola presa"
+            },
+            "resposta": "B",
+            "tipo": "tecnica"
+        },
+
+        {
+            "pergunta": "Qual é o limite de faltas coletivas que uma equipe pode cometer em um período antes de conceder lances livres ao adversário?",
+            "alternativas": { 
+                "A": "4 faltas",
+                "B": "5 faltas",
+                "C": "6 faltas",
+                "D": "7 faltas"
+            },
+            "resposta": "C",
+            "tipo": "tecnica"
+        },
+
+        {
+            "pergunta": "Em que ano foi realizado o primeiro jogo de basquete?",
+            "alternativas": {
+                "A": "1891",
+                "B": "1903",
+                "C": "1920",
+                "D": "1935"
+            },
+            "resposta": "A",
+            "tipo": "historica"
+        },
+
+        {
+            "pergunta": "Quem é frequentemente creditado por inventar o basquete?",
+            "alternativas": {
+                "A": "Michael Jordan",
+                "B": "LeBron James",
+                "C": "Kobe Bryant",
+                "D": "James Naismith"
+            },
+            "resposta": "D",
+            "tipo": "historica"
+        },
+
+        {
+            "pergunta": "Em que cidade norte-americana o primeiro jogo de basquete foi realizado?",
+            "alternativas": {
+                "A": "Nova Iorque",
+                "B": "Chicago",
+                "C": "Springfield",
+                "D": "Los Angeles"
+            },
+            "resposta": "C",
+            "tipo": "historica"
+        },
+
+        {
+            "pergunta": "Qual foi o primeiro país fora dos Estados Unidos a adotar o basquete?",
+            "alternativas": {
+                "A": "Canadá",
+                "B": "França",
+                "C": "Reino Unido",
+                "D": "México"
+            },
+            "resposta": "A",
+            "tipo": "historica"
+        },
+
+        {
+            "pergunta": "Qual é a equipe de basquete universitário com mais títulos do Torneio da NCAA (March Madness)?",
+            "alternativas": {
+                "A": "Duke Blue Devils",
+                "B": "North Carolina Tar Heels",
+                "C": "Kentucky Wildcats",
+                "D": "UCLA Bruins"
+            },
+            "resposta": "D",
+            "tipo": "historica"
+        },
+
+        {
+            "pergunta": "Qual jogador é amplamente considerado como o primeiro grande astro da NBA?",
+            "alternativas": {
+                "A": "Larry Bird",
+                "B": "Magic Johnson",
+                "C": "Bill Russell",
+                "D": "George Mikan"
+            },
+            "resposta": "D",
+            "tipo": "historica"
+        },
+
+        {
+            "pergunta": "Qual foi o nome do jogador que conquistou seis títulos da NBA com os Chicago Bulls nos anos 90?",
+            "alternativas": {
+                "A": "Larry Bird",
+                "B": "Magic Johnson",
+                "C": "Kareem Abdul-Jabbar",
+                "D": "Michael Jordan"
+            },
+            "resposta": "D",
+            "tipo": "historica"
+        },
+
+        {
+            "pergunta": "Qual foi o jogador que quebrou a barreira racial ao se tornar o primeiro afro-americano a jogar na NBA?",
+            "alternativas": {
+                "A": "Wilt Chamberlain",
+                "B": "Bill Russell",
+                "C": "Oscar Robertson",
+                "D": "Earl Lloyd"
+            },
+            "resposta": "D",
+            "tipo": "historica"
+        },
+
+        {
+            "pergunta": "Qual é o jogador com o maior número de títulos da NBA na história?",
+            "alternativas": {
+                "A": "Tim Duncan",
+                "B": "LeBron James",
+                "C": "Bill Russell",
+                "D": "Michael Jordan"
+            },
+            "resposta": "C",
+            "tipo": "historica"
+        },
+
+        {
+            "pergunta": "Quem foi o primeiro jogador a ser draftado para a NBA diretamente do ensino médio?",
+            "alternativas": {
+                "A": "Kobe Bryant",
+                "B": "LeBron James",
+                "C": "Kevin Garnett",
+                "D": "Tracy McGrady"
+            },
+            "resposta": "C",
+            "tipo": "historica"
+        }
+]
