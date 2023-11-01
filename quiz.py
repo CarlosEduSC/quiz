@@ -5,22 +5,22 @@ with open('nba_quiz.json', 'r') as file:
     data = json.load(file)
 
 
-class QuestionFactory:
+class PerguntaFactory:
     @staticmethod
-    def create_question(data):
+    def create_pergunta(data):
         if data['tipo'] == 'tecnica':
-            return TecnicaQuestion(data['pergunta'], data['alternativas'], data['resposta'])
+            return PerguntaTecnica(data['pergunta'], data['alternativas'], data['resposta'])
         elif data['tipo'] == 'historica':
-            return HistoricaQuestion(data['pergunta'], data['alternativas'], data['resposta'])
+            return PerguntaHistorica(data['pergunta'], data['alternativas'], data['resposta'])
 
 
 class VerificadorResposta:
     @staticmethod
-    def verificar_resposta(question, resposta_usuario):
-        return question.verificar_resposta(resposta_usuario)
+    def verificar_resposta(pergunta, resposta_usuario):
+        return pergunta.verificar_resposta(resposta_usuario)
 
 
-class QuestionTemplate:
+class PerguntaTemplate:
     def __init__(self, pergunta, alternativas, resposta):
         self.pergunta = pergunta
         self.alternativas = alternativas
@@ -35,24 +35,24 @@ class QuestionTemplate:
         return self.resposta == resposta_usuario
 
 
-class TecnicaQuestion(QuestionTemplate):
+class PerguntaTecnica(PerguntaTemplate):
     pass
 
 
-class HistoricaQuestion(QuestionTemplate):
+class PerguntaHistorica(PerguntaTemplate):
     pass
 
 
 def main():
     while True:
-        question_data = random.choice(data)
-        question = QuestionFactory.create_question(question_data)
-        question.apresentar_pergunta()
+        pergunta_data = random.choice(data)
+        pergunta = PerguntaFactory.create_pergunta(pergunta_data)
+        pergunta.apresentar_pergunta()
         resposta_usuario = input("Escolha a alternativa correta (A, B, C ou D): ").upper()
-        if VerificadorResposta.verificar_resposta(question, resposta_usuario):
+        if VerificadorResposta.verificar_resposta(pergunta, resposta_usuario):
             print("Resposta correta!\n")
         else:
-            print(f"Resposta incorreta! A resposta correta é {question.resposta}\n")
+            print(f"Resposta incorreta! A resposta correta é {pergunta.resposta}\n")
         continuar = input("Deseja continuar? (S/N): ").upper()
         if continuar != 'S':
             break
